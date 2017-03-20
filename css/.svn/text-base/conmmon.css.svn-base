@@ -1,0 +1,110 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.co666{
+	color: #666;
+}
+.red{
+	color: red !important;
+}
+.co34{
+	color: #3498DB !important;
+}
+.FFF{
+	color: #FFFFFF;
+}
+.black{
+	color: #000000 !important;
+}
+.mgt10{
+	margin-top: 10px;
+}
+.mgt20{
+	margin-top:20px;
+}
+.mgt30{
+	margin-top: 30px;
+}
+.mgt50{
+	margin-top: 50px;
+}
+.mgl10{
+	margin-left: 10px;
+}
+.wid240{
+	width: 240px;
+}
+.rmb{
+	font-size: 20px;
+	font-weight: normal;
+}
+.fs13{
+	font-size: 13px;
+}
+.fwb{
+	font-weight: bolder !important;
+}
+.borl{
+	border-left: 1px solid #CCCCCC;
+}
+.bort{
+	border-bottom:1px solid #CCCCCC ;
+}
+.borr{
+	border-right: 1px solid #CCCCCC;
+}
+/*回到顶部*/
+
+.back_top p{
+	width: 22px;
+	margin-top: 10px;
+	height: 22px;
+	padding-bottom:15px;
+	margin-left: 18px;
+	background: url(../image/kf.jpg) 0 -25px no-repeat;
+}
+ .back_top{
+ 	display: none;
+	position: fixed;
+	right:20px;
+	bottom:112px;
+	width: 56px;
+	height: 80px;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	
+}
+ .kefu p{
+	width: 22px;
+	height: 36px;
+	margin-left: 18px;
+	
+	margin-bottom: 15px;
+	background: url(../image/kf.jpg) 0 12px no-repeat;
+}
+.kefu{
+	cursor: pointer;
+	position: fixed;
+	right:20px;
+	bottom: 30px;
+	width: 56px;
+	height: 80px;
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	font-size: 13px;
+	text-align: center;
+	
+}

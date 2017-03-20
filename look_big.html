@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>放大图</title>
+		<style>
+			*{
+				margin:0;
+				padding: 0;
+			}
+			#pic_header{min-width: 1100px;height:60px;background:url(image/look_big/namebg.jpg) ;}
+			#pic_header h3{text-align: center;line-height: 60px;float: left;margin-left:420px;margin-right: 100px;}
+			#pic_header div{width: 74px;height: 32px;margin-top:14px;float: left;margin-right: 20px;}
+			#pic_content{min-width: 1100px;height: 820px;background: #FFFFFF;}
+			#pic_content .big_pic{width: 800px;height: 800px;float:left;margin-top: 15px;background: #FFFFFF;margin-left:150px;position: relative;}
+			#pic_content .big_pic img{width: 800px;height: 800px;}
+			#pic_content .btn{width: 398px;height: 800px;position: absolute;background: transparent;cursor: pointer;}
+			#pic_content .left{top: 0px ;left: 0px;}
+			#pic_content .left p{background: url(image/look_big/flotjt.gif) 0px 32px;width: 32px;height: 32px;float: left;margin-top: 384px;}
+			#pic_content .right{top: 0px ;right: 0px;}
+			#pic_content .right p{background: url(image/look_big/flotjt.gif) 32px 0px;width: 32px;height: 32px;float: right;margin-top: 384px;}			
+			#pic_content .pic_list{width: 156px; height: 800px;float: left;margin-left: 25px;background: #FFFFFF;margin-top: 15px;border: 1px solid #a1cffe;}
+			#pic_content .pic_list div{width: 122px;height: 122px;border: 2px solid #CCCCCC;margin:23px 17px;}
+			#pic_content .pic_list p{width: 156px;height: 40px;background: #cde6ff;font-size: 15px;font-weight: bold;text-align: center;line-height: 40px;color: #00376e;}
+			#pic_content .pic_list div:hover{border-color: #ff9900;}
+			.now{border-color: #ff9900 !important;}
+			#pic_content .pic_list div img{width: 120px;height: 120px;}
+			#putincar p{width: 215px;height: 44px;background: url(image/look_big/bgw.jpg) no-repeat;margin: 0 auto;}
+		</style>
+	</head>
+	<body>
+		<div id="pic_header">
+			<h3>innifree悦诗风吟绿茶平衡保湿套装(98172)本周特价!</h3>
+			<div class="buy"><a href="#"><img src="image/look_big/buy.jpg"></a></div>
+			<div class="back"><a href="de_pro.html"><img src="image/look_big/back.jpg"/></a></div>
+		</div>
+		<div id="pic_content">
+			
+			<div class="big_pic">
+				<div><img src="image/de_pro/de_pro_01big.jpg"/></div>
+				<div style="display: none;"><img src="image/de_pro/de_pro_02big.jpg"/></div>
+				<div  style="display: none;"><img src="image/de_pro/de_pro_02big.jpg"/></div>
+				<div style="display: none;"><img src="image/de_pro/de_pro_03big.jpg"/></div>
+				<div style="display: none;"><img src="image/de_pro/de_pro_04big.jpg"/></div>
+				
+				<ul class="left btn">
+					<p style="display: none;"></p>
+				</ul>
+				<ul class="right btn">
+					<p style="display: none;"></p>
+				<ul>
+			</div>
+		
+			<div class="pic_list">
+				<p>全部图片</p>
+				<div class="now"><img src="image/de_pro/de_pro_01.jpg"/></div>
+				<div><img src="image/de_pro/de_pro_02.jpg"/></div>
+				<div><img src="image/de_pro/de_pro_02.jpg"/></div>
+				<div><img src="image/de_pro/de_pro_03.jpg"/></div>
+				<div><img src="image/de_pro/de_pro_04.jpg"/></div>
+			</div>
+			
+			
+		</div>
+		<div id="putincar">
+			<a href="#"><p></p></a>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		
+
+	<script type="text/javascript">
+		jQuery(function(){
+			$lis=$('#pic_content .pic_list div');
+			$pics=$("#pic_content .big_pic div");
+			$lebtn=$("#pic_content .left");
+			$ribtn=$("#pic_content .right");
+			var index=0;
+			$lebtn.click(function(){
+				index--;
+				index<0?index=0:index=index;
+				channgeimg();
+			});
+			$ribtn.click(function(){
+				index++;
+				index>4?index=4:index=index;
+				channgeimg();
+			})
+			
+			$lis.each(function(i,elem){
+				$(this).click(function(){
+					index=i;
+					channgeimg()
+				})
+			})
+			$lebtn.add($ribtn).hover(function(){
+				$(this).find("p").show()
+			},function(){
+				$(this).find("p").hide()
+			})
+			$ribtn
+			function channgeimg(){
+				$pics.eq(index).show().siblings("div").hide();
+				$lis.eq(index).addClass("now").siblings().removeClass("now");
+			index==0?$lebtn.find("p").css({"backgroundPositionY":"32px"}):$lebtn.find("p").css({"backgroundPositionY":"64px"});
+			index==4?$ribtn.find("p").css({"backgroundPositionY":"32px"}):$ribtn.find("p").css({"backgroundPositionY":"64px"});			
+			}
+			
+
+			
+			
+			
+			
+			
+		})
+			
+	</script>
+</html>

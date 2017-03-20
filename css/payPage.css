@@ -1,0 +1,67 @@
+@charset "utf-8";
+#payWrap{
+	min-width: 1100px;
+	background:#FFF;
+	margin: 10px auto;
+}
+#payWrap .pay{
+	width: 980px;
+	height: 375px;
+	border: 1px solid #CCCCCC;
+	margin: 0 auto; 
+	background: #FFFFFF;
+}
+ .pay .number{
+ 	text-align: center;
+ 	margin-top: 40px;
+ 	font-size: 1em;
+ 	color: #006;
+ }
+ .pay .bank{
+ 	text-align: center;
+ 	font-size: 13px;
+ 	color: #666666;
+ }
+ .pay .bank img{
+ 	position: relative;
+ 	top: 72px;
+ 	cursor: pointer;
+ }
+ .pay .payNotice{
+ 	color: #666666;
+ 	font-size: 13px;
+ 	text-align: left;
+ 	margin-top: 75px;
+ 	margin-left: 300px;
+ }
+.pay .payNotice a{
+	cursor: pointer;
+	color: #0000FF;
+}
+.pay .payNotice a:hover{
+	color: red;
+}
+.pay p{
+	text-align: center;
+	background: #EEEEEE;
+	color: #9B0000;
+	font-size: 13px;
+	width: 800px;
+	margin-top: 50px;
+	margin-left: 90px;
+	
+}
+.pay .tele{
+	font-size: 13px;
+	color: #666666;
+	text-align: center;
+	margin-top: 10px;
+}
+.pay .tele span,a{
+	color: #000066;
+	
+}
+.pay .tele a:hover{
+	color: red;
+	cursor: pointer;
+}

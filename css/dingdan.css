@@ -1,0 +1,318 @@
+@charset "utf-8";
+#contentWrap{
+	min-width: 1100px;
+	background: #FFFFFF;
+	height: auto;
+}
+#contentWrap .content{
+	width: 960px;
+	height:auto;
+	padding: 20px 10px 20px 10px;
+	margin:0 auto;
+	background:#FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.conHeader{
+	width: 958px;
+	height: 32px;
+	border: 1px solid #ccc;
+	background:#EEEEEE;
+}
+.conHeader ul{
+	margin-left: 248px;
+}
+.conHeader ul li{
+	width: 156px;
+	height: 32px;
+	
+	float: left;
+	background:url(../image/dingdan/step.png) no-repeat;
+}
+.content .masterMsg{
+	margin-top: 5px;
+}
+.content .masterMsg .mtHeader{
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+}
+.content .masterMsg .mtHeader i{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 5px;
+	background: url(../image/dingdan/s_arrow.gif) no-repeat;
+}
+.content .masterMsg .preMsg{
+	width: 892px;
+	height: 32px;
+	margin-left: 10px;
+	border: 1px dashed red;
+}
+.content .masterMsg .mtdetailMsg{
+	width: 862px;
+	height: auto;
+	background: #FFFFFF;
+	font-size: 13px;
+	color: #666666;
+	padding: 5px 15px 10px 15px;
+	
+}
+.content .masterMsg .mtdetailMsg form >div{
+	margin-top: 5px;
+}
+.content .masterMsg .mtdetailMsg select{
+	width: 122px;
+	height: 20px;
+}
+.content .masterMsg .mtdetailMsg form >div input{
+	width: 272px;
+	height: 20px;
+}
+.content .masterMsg .mtdetailMsg .saveNew{
+	margin-left: 65px;
+	margin-top: 10px;
+	color: #3498DB;
+	text-decoration:underline;
+	cursor: pointer;
+}
+.content .masterMsg .mtdetailMsg .saveMsg{
+	width: 106px;
+	height: 29px;
+	text-align: center;
+	line-height: 29px;
+	margin-left: 65px;
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	background:#ffcd61;
+	border: 1px solid #bb4a00;
+	margin-bottom: 20px;
+	cursor: pointer;
+	
+}
+.content .masterMsg .mtdetailMsg .proContact{
+	width: 960px;
+	height: auto;
+	min-height: 25px;
+	border-top: 1px dashed #CCCCCC;
+	border-bottom: 1px dashed #CCCCCC;
+	
+}
+.content .masterMsg .mtdetailMsg .proContact .tiaokuan{
+	color: #3498DB;
+	text-decoration:underline;
+	cursor: pointer;
+}
+.content .masterMsg .mtdetailMsg .proContact .msgSre{
+	margin-top:5px ;
+	margin-bottom: 5px;
+	display:inline-block;
+	
+
+}
+.content .masterMsg .mtdetailMsg .proContact .save{
+	display:inline-block;
+	border-top: 1px solid #FFD782;
+    border-left: 1px solid #FFD782;
+    border-bottom: 1px solid #AA4400;
+    border-right: 1px solid #bb4a00;
+    background-color: #ffcd61;
+    color: #000000;
+    cursor: hand;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    
+    padding: 2px;
+    font-weight: bold;
+}
+.content .payrMsg {
+	margin-top: 5px;
+	height:540px;
+	border-bottom:1px dashed #CCCCCC ;
+}
+.content .payrMsg .mtHeader{
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+}
+.content .payrMsg .mtHeader i{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 5px;
+	background: url(../image/dingdan/s_arrow.gif) no-repeat;
+}
+.content .payrMsg .left,.mid,.right{
+	float:left;
+	background: #e3f2f9;
+	
+}
+.content .payrMsg .left{
+	width: 172px;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 25px;
+	font-weight:500;
+	color: #006;
+}
+.content .payrMsg .left ul{
+	margin-top: 5px;
+}
+.content .payrMsg .left ul li{
+	height: 30px;
+	background: #FFFFFF;
+	border-bottom: 1px dashed #CCCCCC;
+	text-align: left;
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+.content .payrMsg .mid{
+	width: 594px;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 25px;
+	font-weight:500;
+	color: #006;
+}
+.content .payrMsg .mid ul{
+	height:auto;
+	background: #FFFFFF;
+	border:1px solid #CCCCCC ;
+	border-top: none 0;
+	border-bottom-style:dashed ;
+	padding: 5px 5px 10px 5px;
+}
+.content .payrMsg .mid ul li{
+	text-align: left;
+	font-size: 13px;
+	color: #666666;
+	background: #FFFFFF;
+	
+}
+.content .payrMsg .mid ul li>div{
+	background: #efefef;
+	width: 362px;
+}
+.content .payrMsg .right{
+	width: 182px;
+	text-align: center;
+	line-height: 25px;
+	font-weight:500;
+	color: #006;
+}
+.content .payrMsg .right .payOffline{
+	color: #000;
+	background: #FFFFFF;
+	font-size: 13px;
+	text-align: left;
+	padding: 0px 10px 0px 10px;
+}
+.content .payrMsg .right .payOnline{
+	text-align: left;
+	padding: 5px 10px 10px 10px;
+	background: #FFFFFF;
+}
+.content .payrMsg .right .payOnline li{
+	margin-left: 30px;
+	font-size: 13px;
+	color: #000000;
+	
+}
+.content .otherMsg .mtHeader{
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+}
+	
+.content .otherMsg .mtHeader i{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 5px;
+	background: url(../image/dingdan/s_arrow.gif) no-repeat;
+}
+.content .otherMsg .mtHeader a{
+	color: #3498DB;
+	margin-left: 25px;
+	font-size: 12px;
+	cursor: pointer;
+	font-weight: normal;
+}
+.content .otherMsg table {
+	font-weight: normal !important;
+	color: #666666;
+	font-size: 13px;
+	
+}
+.content .otherMsg table .nav th{
+	font-weight: normal !important;
+	color: #666666;
+	font-size: 15px;
+	background: #dfeff7;
+	height: 28px;
+	line-height: 28px;
+}
+.content .otherMsg table .detail{
+	height: 28px;
+	width: 100%;
+	line-height: 28px;
+	text-align: center;
+	border-bottom: 1px solid red;
+	
+}
+#promnycount{
+	font-size: 13px;
+	height: 28px;
+	text-align: right;
+	line-height: 28px;
+	border-top:1px solid #CCCCCC ;
+	border-bottom:1px solid #CCCCCC ;
+}
+#postCost,#daijinquan ,#finallyCount ,#promnycount{
+	font-size: 13px;
+	height: 28px;
+	text-align: right;
+	line-height: 28px;
+	color: #666666;
+}
+
+#postCost div,#daijinquan div,#finallyCount div,#promnycount div{
+	float: right;
+	margin-right:62px;
+}
+#finallyCount{
+	float: right;
+	width: 600px;
+	border-top:1px solid #000 ;
+}
+.content  .makeMsg{
+	margin-top: 40px;
+	height:80px;
+	width: 960px;
+	border-top: 1px dashed #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.content .makeMsg .liuyan{
+	float: left;
+	font-size: 13px;
+	color: #666666;
+}
+.content .makeMsg .liuyan textarea{
+	width: 296px;
+	height: 36px;
+	position: relative;
+	top: 18px;
+	
+}
+.content .makeMsg .btn{
+	float: left;
+	margin-left: 335px;
+	width: 107px;
+	height:36px ;
+	background: url(../image/dingdan/create_oder.gif) no-repeat;
+	cursor: pointer;
+}

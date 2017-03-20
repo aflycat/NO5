@@ -1,0 +1,61 @@
+@charset "utf-8";
+#accontWrap{
+	min-width: 1100px;
+	background: pink;
+	
+}
+.accont{
+	width: 978px;
+	height: 700px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+.accont .accontLe{
+	width: 160px;
+	height: 512px;
+	background: url(../image/register/reg-bg.png) no-repeat;
+	float: left;
+}
+.accont .accontLe ul{
+	margin-top: 50px;
+	text-align: center;
+	padding: 0 0 0 10px;
+}
+.accont .accontLe ul p{
+	text-align: left;
+	background: #FDF3D5;
+	width: 133px;
+	height: 34px;
+	border: 1px solid #FAD29C;
+	line-height: 34px;
+	padding: 0 0 0 10px;
+	margin-top: 5px;
+	font-size: 13px;
+	font-weight: 900;
+}
+.accont .accontLe ul li{
+	margin-top: 10px;
+	text-align: left;
+	padding: 0 0 0 20px;
+	font-size: 13px;
+	color: #666666;
+	cursor: pointer;
+}
+.accont .accontLe ul li:hover span{
+	color: red;
+}
+.accont .accontRig{
+	float: right;
+	width: 808px;
+	height: 700px;
+	background: yellow;
+}
+.accont .accontRig p{
+	width: 808px;
+	height: 36px;
+	background: url(../image/register/reg-bg.png) no-repeat -160px 0px;
+}
+.accont .accontRig .midWrap_one{
+	background: #FFFFFF;
+	height: 200px;
+}

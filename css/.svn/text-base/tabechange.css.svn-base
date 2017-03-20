@@ -1,0 +1,166 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+#tachg_wrap{
+	width: 1360px;
+	height: 490px;
+	background:#FFFFFF;
+	margin-top: 20px;
+}
+#tachg_wrap .tachg{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	border-bottom: 1px solid #666666;
+}
+#tachg_wrap .tachg .tachg_header_wrap{
+	width: 1200px;
+	height: 50px;
+	
+}
+#tachg_wrap .tachg .tachg_header_wrap .tachg_header>ul{
+	width: 1200px;
+	height: 50px;
+	
+}
+
+#tachg_wrap .tachg .tachg_header_wrap .tachg_header>ul>li:first-child{
+	border-bottom: 4px solid #3498DB;
+}
+.shangjiantou{
+	position: absolute;
+	border-left: 5px solid transparent ;
+	border-right:5px solid  transparent;
+	border-bottom:5px solid  #3498DB;
+	top: 45px;
+	left: 120px;
+}
+#tachg_wrap .tachg .tachg_header_wrap .tachg_header>ul> .tach_fir_li{
+	width: 240px;
+	height: 50px;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+	background: url(../image/tabsli_bg.jpg) no-repeat right bottom;
+	
+}
+#tachg_wrap .tach_fir_li .star_tujian{
+	position: absolute;
+	top: 55px;
+	left: 0;
+	line-height: normal;
+	background: #FFFFFF;
+	width: 1200px;
+	height: 440px;
+}
+#tachg_wrap .tach_fir_li .star_tujian .detail_1{
+	float: left;
+	width:240px ;
+	line-height: 22px;
+	height:440px ;
+background: #FFFFFF;
+	text-align: left;
+	color: #666666;
+}
+#tachg_wrap .tach_fir_li .star_tujian .detail_2{
+	float: left;
+	width:480px ;
+	height:440px ;
+	color: #666666;
+	font-size: 14px;
+	background: #FFFFFF;
+}
+#tachg_wrap .tach_fir_li .star_tujian .detail_2 .detail_2_one{
+	width: 239px;
+	height: 230px;
+	float: left;
+	text-align: left;
+	font-size: 13px;
+	
+}
+#tachg_wrap .tach_fir_li .star_tujian .detail_2 .detail_2_two{
+	text-align: left;
+	color: #666666;
+	font-size: 14px;
+}
+
+#tachg_wrap .tach_fir_li .star_tujian .detail_3{
+	float: left;
+	width:240px ;
+	height:440px ;
+	background: #FFFFFF;
+	text-align: left;
+	font-size: 14px;
+	color: #666666;
+}
+#tachg_wrap .tach_fir_li .star_tujian .detail_4{
+	float: left;
+	width:237px ;
+	height:440px ;
+	text-align: left;
+	font-size: 14px;
+	color: #666666;
+	background: #FFFFFF;
+}
+
+#tachg_wrap .tach_fir_li .tabe_list .list_five{
+	width: 230px;
+	height: 440px;
+	background:#FFFFFF;
+	overflow: hidden;
+	float: left;
+	color: #666666;
+	margin-right: 11px;
+	line-height: normal;
+	line-height: 21px;
+	font-size: 13px;
+	text-align:left;
+}
+
+#tachg_wrap .tach_fir_li .tabe_list .list_five:last-child{
+	margin-right:4px;
+	float: right;
+	
+}
+
+
+#tachg_wrap .tach_fir_li .tabe_list .list_five i{
+	background: url(../image/nrbg.jpg);
+	display: block;
+	width: 17px;
+	height: 21px;
+	float: left;
+}
+
+#tachg_wrap .tach_fir_li .hot_pinlun .list_five{
+	width: 230px;
+	height: 440px;
+	background:#f6f6f6;
+	overflow: hidden;
+	float: left;
+	color: #666666;
+	margin-right: 11px;
+	line-height: normal;
+	line-height: 21px;
+	font-size: 13px;
+	text-align:left;
+}
+
+#tachg_wrap .tach_fir_li .hot_pinlun .list_five:last-child{
+	margin-right:4px;
+	float: right;
+}
+#tachg_wrap .tach_fir_li .hot_pinlun .list_five img{
+	width: 200px;
+	height: 200px;
+	
+}
+#tachg_wrap .tach_fir_li .hot_pinlun .list_five p{
+	margin-left:15px;
+	margin-top: 15px;
+	font-size: 13px;
+}

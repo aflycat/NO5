@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>填写订单</title>
+		<link rel="stylesheet" href="css/conmmon.css" />
+		<link rel="stylesheet" href="css/Nav.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/dingdan.css" />
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/dingdan.js"></script>
+	</head>
+	<body>
+		<div id="headerWrap"></div>
+		<div id="navWrap"></div>
+		<div id="contentWrap">
+			<div class="content">
+				<div class="conHeader">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="masterMsg">
+					<div class="mtHeader">
+						收货人信息<i></i>
+					</div>
+					<div class="preMsg">
+						
+					</div>
+					<div class="mtdetailMsg">
+						<form>
+							<div class="name">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<input type="text" /> </div>
+							<div class="telPhone">固定电话：<input type="text" /> </div>
+							<div class="autoPhone">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：<input type="text" /> </div>
+							<div class="email">电子邮件：<input type="text" /> </div>
+							<div class="area">地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区：<select></select> 省<select></select> 市<select></select>城区</div>
+							<div class="adress">详细地址：<input type="text" /> <input type="text" /></div>
+							<div class="postNumber">邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：<input type="text" /> </div>
+							
+						</form>
+						<div class="saveNew"><input type="checkbox"/>另存为新的收获地址</div>
+						<div class="saveMsg">保存收货人地址</div>
+						<div class="proContact">
+							<div class="tiaokuan" ><input type="checkbox"/>订货人信息 (非本人收货请勾选此项,当订单出现异常时,我们会优先与您联系)</div>
+							<div class="msgSre">
+								姓名：<input type="text" />
+								电话：<input type="text" />
+								电子邮箱：<input type="text" />
+								
+							</div>
+							<div class="save">
+									保存
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="payrMsg">
+					<div class="mtHeader">
+						选择配送方式及付款方式<i></i>
+					</div>
+					<div class="left">
+						您的地址
+						<ul>
+							<li><input type="radio" />北京市</li>
+							<li><input type="radio" />上海市</li>
+							<li><input type="radio" />天津市</li>
+							<li><input type="radio" />广东省</li>
+							<li><input type="radio" />全国其他地区</li>
+						</ul>
+					</div>
+					<div class="mid">
+						送货方式
+						<ul>
+							<li>
+								<div><input type="radio" />
+								送货上门</div>
+								
+								<p>发货后2-5个工作日内送达；80元以内每单收取5元配送费，80元(含)以上免费。</p>
+							</li>
+							<li>
+								<div>	<input type="radio" />
+								快递(不支持货到付款)一般采用中通速递，<a class="red">到达区域查询>></a></div>
+							
+								<p>发货后2-5个工作日送达；80元以内每单收取5元配送费，80元(含)以上免费。</p>
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						付款方式
+						<ul class="payOffline">
+							<li><input type="radio" />货到付款</li>
+							
+						</ul>
+						<ul class="payOnline">
+							在线支付
+							<li><input type="radio" />中国工商银行</li>
+							<li><input type="radio" />招商银行</li>
+							<li><input type="radio" />建设银行</li>
+							<li><input type="radio" />中国农业银行</li>
+							<li><input type="radio" />中国银行</li>
+							<li><input type="radio" />中国民生银行</li>
+							<li><input type="radio" />中信银行</li>
+							<li><input type="radio" />交通银行</li>
+							<li><input type="radio" />兴业银行(借记卡)</li>
+							<li><input type="radio" />兴业银行(信用卡)</li>
+							<li><input type="radio" />上海浦东发展银行</li>
+							<li><input type="radio" />支付宝</li>
+							<li><input type="radio" />微信</li>
+							<li><input type="radio" />财付通</li>
+						</ul>
+						<ul class="payOffline">
+							<li><input type="radio" />银行汇款</li>
+							
+						</ul>
+						<ul class="payOffline">
+							<li><input type="radio" />邮政汇款</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="otherMsg">
+					<div class="mtHeader">
+						购物车信息
+						<i></i>
+						<a>[修改购物车]</a>
+					</div>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0" id="shoppinglist">
+						
+							<tr class="nav">
+								<th width="50%">商品名称</th>
+								<th width="9%">规格</th>
+								<th width="9%">一般价</th>
+								<th width="9%">No5价</th>
+								<th width="8%" nowrap="">数量</th>
+								<th width="15%">付款小计</th>
+							</tr>
+							<tr bgcolor="#ffffff" class="detail">
+								<td style="text-align:left;padding-left:3px;">
+									<a>MEDIHEAL美迪惠尔(可莱丝)I.P.I金装版双倍精华美白淡斑面膜(556385)</a>
+								</td>
+								<td>&nbsp;30g*10</td>
+								<td>200</td>
+								<td>115</td>
+								<td>1</td>
+								<td>115</td>
+							</tr>
+					</table>
+					<div id="promnycount" >
+						商品金额合计：
+										<div>
+											115
+										</div>
+					</div>
+					<div id="postCost">配送费：
+					<div>
+											+115
+										</div></div>
+					<div id="daijinquan">代金券冲抵：
+					<div class="red">
+											-115
+										</div></div>
+					<div id="finallyCount">应付款：
+					<div>
+											115
+										</div>
+					</div>
+					
+				</div>
+				<div class="makeMsg">
+						<div class="liuyan">
+							给客服的留言(100字以内)
+							<textarea></textarea>
+						</div>
+						<div class="btn">
+							
+						</div>
+				</div>
+			</div>
+		</div>
+		<div id="footerWrap"></div>
+	</body>
+</html>

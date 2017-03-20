@@ -1,0 +1,142 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+#limit_wrap{
+	width: 1366px;
+	height: 512px;
+	background:#FFFFFF;
+	margin-top: 30px;
+}
+#limit_wrap .limit{
+	width: 1200px;
+	height: 512px;
+	background:#FFFFFF;
+	margin: 0 auto;
+}
+#limit_wrap .limit .limit_heder_wrap>img{
+	height: 24px;
+	width: 248px;
+	
+}
+#limit_wrap .limit .limit_heder_wrap .limit_header{
+	height:24px ;
+	width: 248px;
+	background: url(../image/limitbuy/qiang.jpg) no-repeat;
+	margin-bottom: 10px;
+}
+#limit_wrap .limit .limit_content_wrap{
+	width: 1200px;
+	height: 476px;
+	border-top: 2px solid #F0A03C;
+	border-bottom:1px solid #666666;
+}
+#limit_wrap .limit .limit_content{
+	width: 1200px;
+	height: 456px;
+	margin-top: 15px;
+	
+}
+#limit_wrap .limit .limit_content .content_one {
+	width: 289px;
+	height: 456px;
+	float: left;
+	margin-right: 12px;
+	cursor: pointer;
+}
+#limit_wrap .limit .limit_content .content_one:last-child{
+	margin-right: 0;
+	float: right;
+}
+#limit_wrap .limit .limit_content .content_one .content_one_top{
+	width: 289px;
+	height: 362px;
+	border: 1px solid #CCCCCC;
+	border-bottom: none 0;
+
+}
+#limit_wrap .limit .limit_content .content_one .content_one_top:hover{
+	border: 1px solid red;
+	border-bottom:none 0 ;
+}
+
+#limit_wrap .limit .limit_content .content_one .content_one_top .last_time{
+	width: 289px;
+	height: 40px;
+	background: #f8f7f5;
+	
+}
+#limit_wrap .limit .limit_content .content_one .content_one_top .last_time *{
+	float: left;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 10px;
+	
+}
+#limit_wrap .limit .limit_content .content_one .content_one_top .last_time i{
+	display: block;
+	width: 35px;
+	height: 35px;
+	background: url(../image/limitbuy/clock.png);
+		
+}
+#limit_wrap .limit .limit_content .content_one .content_one_top .last_time input{
+	width: 25px;
+	height:38px;
+	background: #f8f7f5;
+	border:none 0;
+	color: red;
+	font-weight: 0;
+	font-size: 20px;
+	}
+#limit_wrap .limit .limit_content .content_one .content_one_top .last_time span {
+	font-size: 13px;
+	
+	}
+	
+#limit_wrap .limit .limit_content .content_one .content_one_top .content_one_detal{
+	height:322px ;
+	
+	
+}
+#limit_wrap .limit .limit_content .content_one .content_one_top .content_one_detal>img{
+	margin-left: 10px;
+	width: 270px;
+	height: 280px;
+}
+#limit_wrap .limit .limit_content .content_one .content_one_top .content_one_detal>p{
+	font-size: 12px;
+	font-weight: bold;
+}
+#limit_wrap .limit .limit_content .content_one .content_one_bot .cont_bot_top{
+	width: 291px;
+	height: 57px;
+	background: url(../image/limitbuy/i_03.jpg) no-repeat;
+	line-height: 57px;
+}
+
+#limit_wrap .limit .limit_content .content_one .content_one_bot .cont_bot_top h1{
+	font-size: 36px;
+	color: #FFFFFF;
+	float: left;
+	margin-left: 5px;
+	
+	
+}
+#limit_wrap .limit .limit_content .content_one .content_one_bot .cont_bot_top h3{
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	line-height: 67px;
+	margin-left: 20px;
+	
+}
+#limit_wrap .limit .limit_content .content_one .content_one_bot .cont_bot_bot *{
+	float:right;
+	font-size: 14px;
+	margin-top: 12px;
+	margin-right: 10px;
+	color: #666666;
+}

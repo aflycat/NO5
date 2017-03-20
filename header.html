@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>NO5header</title>
+		<link rel="stylesheet" href="css/conmmon.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<script src="js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<div id="header_wrap">
+			<div class="header">
+				<div class="header_top_wrap">
+					<div class="header_top">
+					<div class="leul">
+						<ul>
+							<li>晚上好，欢迎光临时尚广场。</li>
+							<li><a href="#">[登陆]</a></li>
+							<li><a href="#">&nbsp;[免费注册]</a></li>
+						</ul>
+					</div>
+					<div class="riul_tele">
+						<div></div><p><i>010-51666655</i></p>
+					</div>
+					<div class="riul">
+						<ul>
+							<li class="hover_tab">
+								<p>我的账户<label></label></p>
+								<ul class="header_tab">
+									<li ><a href="#">我的订单</a></li>
+									<li ><a href="#">我的积分</a></li>
+									<li ><a href="#">我的优惠券</a></li>
+									<li ><a href="#">我的收藏</a></li>
+								</ul>
+							</li>
+							<li style="border-right: 1px solid #666666;border-left: 1px solid #666666;"><a href="#">&nbsp;收藏本站</a></li>
+							<li><a href="#">帮助中心</a></li>
+							
+						</ul>
+					</div>
+					
+				</div>
+				</div>
+				
+				<div class="header_bot">
+					<div class="logo">
+						<img src="image/logo.jpg" />
+					</div>
+					<div class="search_room">
+						<div class="clear_value">
+							×
+						</div>
+						<input type="text" value="保湿"/>
+						<p>搜索</p>
+					</div>
+					
+					<div class="search_nav">
+						<ul>
+							<p>热门搜索：&nbsp;</p>
+							<li ><a class="red" href="#">补水保湿</a></li>
+							<li ><a href="#">雅诗兰黛</a></li>
+							<li ><a href="#">欧舒丹护手霜</a></li>
+							<li ><a href="#">韩国面膜</a></li>
+							<li ><a href="#">专柜小样</a></li>
+							<li ><a class="red" href="#">礼盒送礼</a></li>
+							<li ><a href="#">口红</a></li>
+						</ul>
+					</div>
+					<div class="shopping_car_wrap">
+						<div class="shopping_car" style="display: block;">购物车<span class="red">0</span>件</div>
+						
+						<ul>
+							<div></div>
+							购物车里面还没有东西，赶紧去逛逛
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		jQuery(function(){
+			$("#header_wrap .search_room input").focus(function(){
+				clearvalue()
+			})
+			$("#header_wrap .search_room input").blur(function(){
+				backvalue()
+			});
+			$("#header_wrap .search_room .clear_value").click(function(){
+				clearvalue();
+			})
+			
+			function clearvalue(){
+				$("#header_wrap .search_room input").attr("value","")
+			}
+			function backvalue(){
+				$("#header_wrap .search_room input").attr("value","保湿")
+			}
+		})
+	</script>
+</html>

@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+#midWrap{
+	width: 100%;
+	height: 557px;
+	background:#ffffff;
+	overflow: hidden;
+	
+}
+
+#midWrap .content{
+	width: 980px;
+	height: 515px;
+	border: 1px solid #3498DB;
+	margin: 10px auto;
+	
+}
+
+#midWrap .content .register,.sign{
+	width: 475px;
+	height: 453px;
+	background: #FFFFFF;
+	float: left;
+	margin-top: 30px;
+	color: #666666;
+}
+#midWrap .content .divide{
+	width:30px ;
+	height: 444px;
+	margin-top: 30px;
+	float: left;
+	background: yellow;
+	background: url(../image/register/reg-bg.png) -914px -69px ;
+}
+#midWrap .content .sign{
+	float: right;
+}
+#midWrap .content .register .reg_header{
+	width: 438px;
+	height: 43px;
+	
+	background: url(../image/register/reg-bg.png) -162px -152px;
+	margin: 0 auto;
+}
+
+#midWrap .content .register .user_name{
+	width: 268px;
+	font-size: 13px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+#midWrap .content .register .user_name p{
+	margin-left: 55px;
+	display: none;
+}
+#midWrap .content .register .user_name input{
+	width: 206px;
+	height: 22px;
+}
+#midWrap .content .register .password,.yanzheng_wrap{
+	width: 340px;
+	height: 50px;
+	font-size: 13px;
+	height: 45px;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+#midWrap .content .register .password p,.yanzheng_wrap p{
+	margin-left: 55px;
+	display: none;
+	
+}
+#midWrap .content .register .password span{
+	cursor: pointer;
+}
+#midWrap .content .register .password span:hover{
+	color: #FF9900 !important;
+	text-decoration: underline;
+}
+#midWrap .content .register .yanzheng_wrap {
+	margin-top: 15px;
+}
+#midWrap .content .register .yanzheng_wrap input{
+	width: 56px;
+}
+#midWrap .content .register .yanzheng_wrap .text{
+	float: right;
+	margin-right: 186px;
+	background: #C5C5C5;
+	
+}
+#midWrap .content .register .register_btn{
+	width: 90px;
+	height: 29px;
+	margin: 30px auto;
+	cursor: pointer;
+	background: url(../image/register/btn-login.png);
+	
+}
+#midWrap .content .register .company{
+	font-size: 13px;
+	color: #666666;
+	line-height: 30px;
+	margin-left: 80px;
+}
+#midWrap .content .register .company img{
+	cursor: pointer;
+}
+
+
+
+
+#midWrap .content .sign .sig_header{
+	width: 438px;
+	height: 43px;
+	background: url(../image/register/reg-bg.png) -162px -196px;
+	margin: 0 auto;
+}
+#midWrap .content .sign .user_name{
+	width: 400px;
+	height: 44px;
+	font-size: 13px;
+	margin-left: 50px;
+	margin-top:35px;
+}
+#midWrap .content .sign .user_name p{
+	margin-left: 53px;
+}
+#midWrap .content .sign .user_name input{
+	width: 206px;
+	height: 22px;
+}
+#midWrap .content .sign .password,.re_password,.email,.yanzheng{
+	width: 350px;
+	height: 44px;
+	font-size: 13px;
+	margin-left: 35px;
+	margin-top: 13px;
+}
+#midWrap .content .sign p,img{
+	display: none;
+}
+#midWrap .content .sign .password p,.re_password p,.email p,.yanzheng p{
+	margin-left:67px;
+	
+}
+#midWrap .content .sign .password input,.re_password input,.email  input{
+	width: 206px;
+	height: 22px;
+}
+#midWrap .content .sign .yanzheng input{
+	width: 56px;
+	height: 22px;
+}
+#midWrap .content .sign .yanzheng .text{
+	float: right;
+	margin-right: 186px;
+	background: #C5C5C5;
+}
+#midWrap .content .sign .agree{
+	font-size: 13px;
+	width: 250px;
+	margin: 20px auto;
+}
+#midWrap .content .sign .sign_btn{
+	width: 90px;
+	height: 29px;
+	margin: 20px auto;
+	cursor: pointer;
+	background: url(../image/register/btn-login.png);
+}
